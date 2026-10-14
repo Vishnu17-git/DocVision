@@ -1,0 +1,21 @@
+
+# API
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Image processing
+Pillow
+numpy
+
+# OCR
+paddleocr
+paddlepaddle
+
+# Deep learning and model inference
+torch
+transformers
+safetensors
+tokenizers
+
+# Utilities

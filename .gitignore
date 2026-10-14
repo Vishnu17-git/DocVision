@@ -1,15 +1,58 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
 .venv/
 venv/
 env/
-__pycache__/
-*.pyc
+
+# Environment variables and secrets
 .env
+.env.*
+!.env.example
+
+# Jupyter Notebook
 .ipynb_checkpoints/
-.cache/
-models/
-data/
+
+# Trained model weights and checkpoints
+*.safetensors
 *.pt
 *.pth
 *.bin
-*.safetensors
+*.ckpt
+*.onnx
 
+# Model directories
+models/
+checkpoints/
+
+# Dataset files
+data/
+datasets/
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+
+
+.vscode/
+.idea/
+
+
+.DS_Store
+Thumbs.db
